@@ -1,0 +1,6 @@
+content_size: 512
+style_size: 512
+crop: 'store_true'
+save_ext: '.jpg'
+preserve_color: False
+do_interpolation: False

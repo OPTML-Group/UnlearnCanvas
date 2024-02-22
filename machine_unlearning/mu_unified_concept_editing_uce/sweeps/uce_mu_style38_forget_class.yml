@@ -1,0 +1,34 @@
+name: uce_mu_style38_forget_class
+project: quick-canvas-machine-unlearning-training
+command:
+- ${interpreter}
+- ${program}
+- ${args}
+method: grid
+metric:
+  goal: minimize
+  name: loss
+parameters:
+  theme:
+    values:
+      - Architectures
+      - Bears
+      - Birds
+      - Butterfly
+      - Cats
+      - Dogs
+      - Fishes
+      - Flame
+      - Flowers
+      - Frogs
+      - Horses
+      - Human
+      - Jellyfish
+      - Rabbits
+      - Sandwiches
+      - Sea
+      - Statues
+      - Towers
+      - Trees
+      - Waterfalls
+program: train_erase.py

@@ -1,0 +1,41 @@
+name: mu_ca_class
+project: quick-canvas-sd-generation
+command:
+- ${interpreter}
+- ${program}
+- ${args}
+method: grid
+metric:
+  goal: maximize
+  name: seed
+parameters:
+  seed:
+    values:
+      - 188
+      - 288
+      - 588
+      - 688
+      - 888
+  theme:
+    values:
+      - Architectures
+      - Bears
+      - Birds
+      - Butterfly
+      - Cats
+      - Dogs
+      - Fishes
+      - Flame
+      - Flowers
+      - Frogs
+      - Horses
+      - Human
+      - Jellyfish
+      - Rabbits
+      - Sandwiches
+      - Sea
+      - Statues
+      - Towers
+      - Trees
+      - Waterfalls
+program: experiments/mu/exp_mu_ca_style.py

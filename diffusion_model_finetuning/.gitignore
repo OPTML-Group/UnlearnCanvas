@@ -1,0 +1,10 @@
+.idea
+__pycache__
+*/__pycache__
+*/*/__pycache__
+../.idea
+.vscode
+logs
+results
+stable_diffusion/models/ldm/stable-diffusion-v1
+plots

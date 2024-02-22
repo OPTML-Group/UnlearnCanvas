@@ -1,0 +1,34 @@
+DEVICE: 'gpu'
+MAST_CORE:
+  MAX_USE_NUM: -1
+  SOFT_LAMBDA: 0.05
+  K_CROSS: 5
+  REDUCE_DIM_TYPE: 'avg_pool'  # ['avg_pool', 'max_pool']
+  DIM_THRESH: 128
+  PATCH_SIZE: 1
+  ORTHOGONAL_CONSTRAINT: false
+TEST:
+  MODEL:
+    ENCODER_PATH: 'checkpoints/vgg_r51.pth'
+    DECODER_R11_PATH: 'checkpoints/Artistic_decoders/dec_r11.pth'
+    DECODER_R21_PATH: 'checkpoints/Artistic_decoders/dec_r21.pth'
+    DECODER_R31_PATH: 'checkpoints/Artistic_decoders/dec_r31.pth'
+    DECODER_R41_PATH: 'checkpoints/Artistic_decoders/dec_r41.pth'
+    DECODER_R51_PATH: 'checkpoints/Artistic_decoders/dec_r51.pth'
+    SKIP_CONNECTION_DECODER_PATH: 'checkpoints/PhotoRealistic_decoders/decoder_r51_r41_r31.pth'
+  ARTISTIC:
+    LAYERS: 'r41,r31,r21'
+    STYLE_WEIGHT: 0.6
+  PHOTOREALISTIC:
+    LAYERS: 'r51,r41,r31'
+    POST_SMOOTHING: true
+    FAST_SMOOTHING: true
+    SKIP_CONNECTION_TYPE: 'AWSC2'  # ['AWSC1', 'AWSC2'], AWSC1->align means || AWSC2->align means and variances
+    SKIP_CONNECTION_WEIGHT: 0.5
+    STYLE_WEIGHT: 1.0
+  GUI:
+    IMAGE_SIZE: 512
+    ADD_MASK_TYPE: 'pre'
+    EXPAND: true
+    EXPAND_NUM: 20
+

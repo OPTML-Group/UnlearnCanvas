@@ -1,0 +1,10 @@
+.idea
+results
+__pycache__
+*/__pycache__/*
+*/*/__pycache__
+*/ckpts
+*/.idea
+./.tmp.drivedownload
+./.tmp.driveupload
+deprecated

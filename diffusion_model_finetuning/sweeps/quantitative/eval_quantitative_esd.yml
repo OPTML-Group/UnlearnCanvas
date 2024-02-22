@@ -1,0 +1,76 @@
+name: quantitative_eval_style38_esd
+project: quick-canvas-mu-evaluation
+command:
+- ${interpreter}
+- ${program}
+- ${args}
+- "--input_dir=eval_results/mu_results/esd/style38/"
+- "--ckpt=ckpts/cls_model/style40.pth"
+- "--output_dir=eval_results/quantitative/style38/esd/"
+#- Run this script on OPTML2
+method: grid
+metric:
+  goal: maximize
+  name: seed
+parameters:
+  theme:
+    values:
+      - Abstractionism
+      - Bricks
+      - Cartoon
+      - Color_Fantasy
+      - Cubism
+      - Early_Autumn
+      - Fauvism
+      - Gorgeous_Love
+      - Impressionism
+      - Joy
+      - Meta_Physics
+      - Monet
+      - Pencil_Drawing
+      - Red_Blue_Ink
+      - Superstring
+      - Warm_Love
+      - Artist_Sketch
+      - Byzantine
+      - Cold_Warm
+      - Crayon
+      - Dadaism
+      - Expressionism
+      - Glowing_Sunset
+      - Greenfield
+      - Ink_Art
+      - Magic_Cube
+      - Meteor_Shower
+      - Neon_Lines
+      - Picasso
+      - Rust
+      - Sponge_Dabbed
+      - Van_Gogh1
+      - Watercolor
+      - On_Fire
+      - Vibrant_Flow
+      - Mosaic
+      - Blossom_Season
+      - Warm_Smear
+      - Architectures
+      - Bears
+      - Birds
+      - Butterfly
+      - Cats
+      - Dogs
+      - Fishes
+      - Flame
+      - Flowers
+      - Frogs
+      - Horses
+      - Human
+      - Jellyfish
+      - Rabbits
+      - Sandwiches
+      - Sea
+      - Statues
+      - Towers
+      - Trees
+      - Waterfalls
+program: experiments/quantitative/quantitative_eval_style.py

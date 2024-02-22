@@ -1,0 +1,74 @@
+name: eval_image_editing_style60_step2999
+project: quick-canvas-sd-generation
+command:
+- ${interpreter}
+- ${program}
+- ${args}
+method: grid
+metric:
+  goal: maximize
+  name: seed
+parameters:
+  theme:
+    values:
+    - Abstractionism
+    - Artist_Sketch
+    - Blossom_Season
+    - Blue_Blooming
+    - Bricks
+    - Byzantine
+    - Cartoon
+    - Cold_Warm
+    - Color_Fantasy
+    - Comic_Etch
+    - Crayon
+    - Crypto_Punks
+    - Cubism
+    - Dadaism
+    - Dapple
+    - Defoliation
+    - Dreamweave
+    - Early_Autumn
+    - Expressionism
+    - Fauvism
+    - Foliage_Patchwork
+    - French
+    - Glowing_Sunset
+    - Gorgeous_Love
+    - Greenfield
+    - Impasto
+    - Impressionism
+    - Ink_Art
+    - Joy
+    - Liquid_Dreams
+    - Palette_Knife
+    - Magic_Cube
+    - Meta_Physics
+    - Meteor_Shower
+    - Monet
+    - Mosaic
+    - Neon_Lines
+    - On_Fire
+    - Pastel
+    - Pencil_Drawing
+    - Picasso
+    - Pointillism
+    - Pop_Art
+    - Rainwash
+    - Realistic_Watercolor
+    - Red_Blue_Ink
+    - Rust
+    - Sketch
+    - Sponge_Dabbed
+    - Structuralism
+    - Superstring
+    - Surrealism
+    - Techno
+    - Ukiyoe
+    - Van_Gogh
+    - Vibrant_Flow
+    - Warm_Love
+    - Warm_Smear
+    - Watercolor
+    - Winter
+program: experiments/image_editing/exp_image_editing_batch_additional_image.py

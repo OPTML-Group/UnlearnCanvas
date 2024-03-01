@@ -69,7 +69,7 @@ As for the detailed usage instructions of these checkpoints, please refer to the
 ## 4) Environments
 Unless otherwise specified, the code will be running in the following environment:
 ```bash
-conda create -f environment.yml
+conda env create -f environment.yml
 ```
 Please note that there are over 16 applications in this project (fine-tuning on text-to-image/image editing diffusion models, machine unlearning, style transfer), we suggest you to check the README file for each application before using them, in case there are any additional dependencies required.
 

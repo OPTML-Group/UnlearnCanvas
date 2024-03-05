@@ -2,7 +2,7 @@
  
 # UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models
 
-[![preprint](https://img.shields.io/static/v1?label=arXiv&message=2310.12508&color=B31B1B)](https://arxiv.org/abs/2402.11846)
+[![preprint](https://img.shields.io/static/v1?label=arXiv&message=2402.11846&color=B31B1B)](https://arxiv.org/abs/2402.11846)
 [![website](https://img.shields.io/badge/Website-Page-cyan)](.)
 [![dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue)](https://huggingface.co/datasets/OPTML-Group/UnlearnCanvas)
 [![benchmark](https://img.shields.io/badge/HuggingFace-Benchmark-green)](https://huggingface.co/spaces/OPTML-Group/UnlearnCanvas-Benchmark)

@@ -1,9 +1,9 @@
 <div align='center'>
  
-# UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models
+# [UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models](https://unlearn-canvas.netlify.app)
 
 [![preprint](https://img.shields.io/static/v1?label=arXiv&message=2402.11846&color=B31B1B)](https://arxiv.org/abs/2402.11846)
-[![website](https://img.shields.io/badge/Website-Page-cyan)](.)
+[![website](https://img.shields.io/badge/Website-Page-cyan)](https://unlearn-canvas.netlify.app)
 [![dataset](https://img.shields.io/badge/HuggingFace-Dataset-blue)](https://huggingface.co/datasets/OPTML-Group/UnlearnCanvas)
 [![benchmark](https://img.shields.io/badge/HuggingFace-Benchmark-green)](https://huggingface.co/spaces/OPTML-Group/UnlearnCanvas-Benchmark)
 [![video](https://img.shields.io/badge/Youtube-Video-purple)](https://youtu.be/lC_R_b9ZiH8)

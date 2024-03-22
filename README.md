@@ -58,7 +58,7 @@ The dataset has the following features:
 
 ## 3) An Overview on Checkpoints
 
-We provide the key checkpoints used in our experiments in the paper. The checkpoints are publicly available in the [Google Drive Folder](). These checkpoints are organized in the following subfolders:
+We provide the key checkpoints used in our experiments in the paper. The checkpoints are publicly available in the [Google Drive Folder](https://drive.google.com/drive/folders/14iztBXs-GoBFVLePC2_psP00YUMK5-cy?usp=sharing). These checkpoints are organized in the following subfolders:
 
 - `diffusion` (**StableDiffusion Fine-tuned on UnlearnBench**): We provide the fine-tuned checkpoints for the StableDiffusion model on the UnlearnCanvas dataset in the format of `compvis` and `diffuser` format (to save your time on transferring them to each other). These checkpoints are used in the machine unlearning experiments in the paper and serve as the testbed for different unlearning methods.
 - `classfiers` (**Style/Object Classifier Fine-tuned on UnlearnBench**): We provide the fine-tuned ViT-Large checkpoints for the style and object classifiers on the UnlearnCanvas dataset. These checkpoints are used in the machine unlearning experiments in the paper to evaluate the results after each unlearning method is performed.

@@ -17,9 +17,9 @@ This does nothing but collect of a lisf of images and its corresponding prompts 
 
 ## Unlearning
 
-The checkpoint used for SalUn is in the compvis format, and the pretrained checkpoint can be found in [Google Drive](https://drive.google.com/drive/folders/14iztBXs-GoBFVLePC2_psP00YUMK5-cy?usp=sharing) (`compvis/style50/compvis.ckpt`). 
+The checkpoint used for Ediff is in the compvis format, and the pretrained checkpoint can be found in [Google Drive](https://drive.google.com/drive/folders/14iztBXs-GoBFVLePC2_psP00YUMK5-cy?usp=sharing) (`compvis/style50/compvis.ckpt`). 
 
-The unlearning has two stages, first generate the mask and then unlearn the weights.
+Unlearning command is as follows:
 
 ```bash
 python3 train-erase.py --theme ${theme} --output_dir OUTPUT_DIR --ckpt_path PATH_TO_COMPVIS_CKPT

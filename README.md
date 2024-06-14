@@ -81,6 +81,7 @@ Please note that there are over 16 applications in this project (fine-tuning on 
 
 ### Code Contributors
 * [Yihua Zhang](https://yihua-zhang.com/)
+* [Chongyu Fan](https://a-f1.github.io/)
 * [Yimeng Zhang](https://damon-demon.github.io/)
 
 ### Credits to the Original Code Repositories
@@ -97,6 +98,10 @@ This dataset and the relevant benchmarking experiments are built on the amazing 
   * [Forget-Me-Not: Learning to Forget in Text-to-Image Diffusion Models (FMN)](https://github.com/SHI-Labs/Forget-Me-Not/tree/main):
   * [SalUn: Empowering Machine Unlearning via Gradient-based Weight Saliency in Both Image Classification and Generation (SalUn)](https://github.com/OPTML-Group/Unlearn-Saliency/tree/master):
   * [Selective Amnesia: A Continual Learning Approach for Forgetting in Deep Generative Models (SA)](https://github.com/clear-nus/selective-amnesia):
+  * [Concept Semi-Permeable Membrane (SPM)](https://github.com/Con6924/SPM)
+  * [Get What You Want, Not What You Don't: Image Content Suppression for Text-to-Image Diffusion Models (SEOT)](https://github.com/sen-mao/SuppressEOT)
+  * [EraseDiff: Erasing Data Influence in Diffusion Models (Ediff)](https://github.com/JingWu321/EraseDiff)
+  * [Scissorhands: Scrub Data Influence via Connection Sensitivity in Networks (SHS)](https://github.com/JingWu321/Scissorhands)
 * Style Transfer
   * [ArtFlow](https://github.com/pkuanjie/ArtFlow)
   * [AdaAttn](https://github.com/Huage001/AdaAttN)

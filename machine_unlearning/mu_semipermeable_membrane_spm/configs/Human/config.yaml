@@ -1,0 +1,36 @@
+
+    prompts_file: "configs/Human/prompt.yaml"
+
+    pretrained_model:
+      name_or_path: "CompVis/stable-diffusion-v1-4"
+      v2: false
+      v_pred: false
+      clip_skip: 1
+
+    network:
+      rank: 1
+      alpha: 1.0
+
+    train:
+      precision: float32
+      noise_scheduler: "ddim"
+      iterations: 3000
+      batch_size: 1
+      lr: 0.0001
+      unet_lr: 0.0001
+      text_encoder_lr: 5e-05
+      optimizer_type: "AdamW8bit"
+      lr_scheduler: "cosine_with_restarts"
+      lr_warmup_steps: 500
+      lr_scheduler_num_cycles: 3
+      max_denoising_steps: 30
+
+    save:
+      name: "Human"
+      path: "output/Human"
+      per_steps: 500
+      precision: float32
+
+    other:
+      use_xformers: true
+    

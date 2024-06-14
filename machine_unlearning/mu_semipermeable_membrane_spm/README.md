@@ -15,7 +15,7 @@ pip install -r requirements.txt
 The checkpoint used for SPM is in the diffuser format, and the pretrained checkpoint can be found in [Google Drive](https://drive.google.com/drive/folders/14iztBXs-GoBFVLePC2_psP00YUMK5-cy?usp=sharing) (`diffuser/style50`).
 
 ```bash
-python train_erase.py --theme ${theme} --ckpt_path PATH_TO_COMPVIS_CKPT
+python train-erase.py --theme ${theme} --ckpt_path PATH_TO_COMPVIS_CKPT
 ```
 
 The results will be saved in the directory `output/{theme}/`.

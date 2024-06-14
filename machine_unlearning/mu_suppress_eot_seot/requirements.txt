@@ -1,0 +1,12 @@
+diffusers
+imageio==2.22.4
+matplotlib==3.6.2
+matplotlib-inline==0.1.6
+numpy==1.23.5
+torch
+torchaudio
+torchmetrics==0.11.0
+torchvision
+tornado==6.2
+tqdm==4.64.1
+transformers==4.25.1

@@ -81,6 +81,7 @@ Please note that there are over 16 applications in this project (fine-tuning on 
 
 ### Code Contributors
 * [Yihua Zhang](https://yihua-zhang.com/)
+* [Chongyu Fan](https://a-f1.github.io/)
 * [Yimeng Zhang](https://damon-demon.github.io/)
 
 ### Credits to the Original Code Repositories

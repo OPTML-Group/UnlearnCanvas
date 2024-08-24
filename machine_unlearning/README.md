@@ -15,6 +15,10 @@ This folder contains the scripts and instructions to reproduce the machine unlea
 </table>
 </div>
 
+### Update on Codes for Finer-Scale Unlearning, Robust Evaluation, and Sequential Unlearning
+
+As we released the second version of our paper, we added three additional more challenging unlearning settings to UnlearnCanvas, including the finer-scale unlearning, robust evaluation, and sequential unlearning. Here, we remark that the current code repo has already supported the experiments for finer-scale unlearning and sequential unlearning. Specifically, one can achieve this by replacing the unlearning objectives (*e.g.*, prompt and forget/retain image set if applicable) and adjusting the checkpoint loading from the original model to the last unlearned model. For robust evaluation with adversarial prompts, we refer to the [repo of the UnlearnDiffAtk](https://urldefense.com/v3/__https://github.com/OPTML-Group/Diffusion-MU-Attack__;!!HXCxUKc!0XGlPOg193FkhZ-i0s0bfzquXU3BCfe3lvTILVg37A5TadfyOmpF7IOEJdvWGHMbjVH9Brc9Zqne-XN6z_BQevc$), which requires only minor changes in model loading and the attacking objective. We are sorry for not planning to update the current code repo for a ready-to-use version for these settings, as massive code replications would be unavoidable, if new folders (for each setting) are added to this folder. We are planning a major update on this repo with the code structures being refactored and re-organized to make it easy to use. We are sorry for any inconvenience this might cause.
+
 ## Machine Unlearning Evaluations
 
 For each machine unlearning method, we need to

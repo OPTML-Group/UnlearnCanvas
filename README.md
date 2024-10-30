@@ -118,7 +118,7 @@ This dataset and the relevant benchmarking experiments are built on the amazing 
 ```
 @article{zhang2024unlearncanvas,
   title={UnlearnCanvas: A Stylized Image Dataset to Benchmark Machine Unlearning for Diffusion Models},
-  author={Zhang, Yihua and Zhang, Yimeng and Yao, Yuguang and Jia, Jinghan and Liu, Jiancheng and Liu, Xiaoming and Liu, Sijia},
+  author={Zhang, Yihua and Fan, Chongyu and Zhang, Yimeng and Yao, Yuguang and Jia, Jinghan and Liu, Jiancheng and Zhang, Gaoyuan and Liu, Gaowen and Kompella, Ramana and Liu, Xiaoming and Liu, Sijia},
   journal={arXiv preprint arXiv:2402.11846},
   year={2024}
 }

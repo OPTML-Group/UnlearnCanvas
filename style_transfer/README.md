@@ -19,7 +19,7 @@ In this folder, we provide the code to benchmark the performance of different st
 
 In order to perform each method, we need to first download the pretrained checkpoint for the unlearning methods. The detailed instructions for each method can be found in the corresponding directories.
 
-In the meantime, please download the UnlearnCanvas dataset from [Google Drive](https://drive.google.com/drive/folders/1sJBLhng3I2fD3dbEzxx_Jvm1bMBcMQH7?usp=sharing). The HuggingFace version is currently not supported in this task.
+In the meantime, please download the UnlearnCanvas dataset from [Google Drive](https://drive.google.com/drive/folders/1-1Sc8h_tGArZv5Y201ugTF0K0D_Xn2lM?usp=drive_link). The HuggingFace version is currently not supported in this task.
 
 ## Style Transfer Benchmarking
 

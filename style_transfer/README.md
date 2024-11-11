@@ -37,7 +37,7 @@ Given the answer set, we further calculate the quantitative metrics for each met
 
 In order to calculate the style and the content loss, we can either use a pretrained VGG model or our own style/object classification model (ViT-Large). Here, we provide the scripts for both. Our experiment results demonstrate while both models can demonstrate similar relative ranks among the tested methods, our ViT-Large classifier can better differentiate the performance of different methods.
 
-In order to obtain the pretrained checkpoints, please refer to [Google Drive](https://drive.google.com/drive/folders/14iztBXs-GoBFVLePC2_psP00YUMK5-cy?usp=sharing) (`cls_model` and `style_loss_vgg`).
+In order to obtain the pretrained checkpoints, please refer to [Google Drive](https://drive.google.com/drive/folders/18dhkXyZQWjdMvlAlxZx3fZhdCZvlj2Hw?usp=drive_link) (`cls_model` and `style_loss_vgg`).
 
 ```bash
 method=adaattn; python3 evaluation/vit_loss.py --input PATH_TO_ANSWER_SET --output OUTPUT_DIR --benchmark_dir PATH_TO_DATASET_DIR --ckpt PATH_TO_PRETRAINED_CLASSIFIER; 
